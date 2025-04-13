@@ -2,7 +2,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import SearchCard from "./searchCard";
+import SearchCard from "./SearchCard";
 import useFetch from "../hooks/useFetch";
 
 const Header = () => {
