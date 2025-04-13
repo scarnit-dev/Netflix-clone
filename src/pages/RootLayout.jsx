@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
-import Header from '../components/header'
+import Header from '../components/header.jsx'
 import { Outlet } from 'react-router-dom'
-import Loading from '../Loading'
+import Loading from '../Loading.jsx'
 
 const RootLayout = () => {
   return (
